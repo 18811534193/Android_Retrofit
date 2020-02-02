@@ -4,6 +4,9 @@ Retrofit是基于Okhttp的一个网络框架，把http请求部分交给okhttp�
 主要代码
 
  /** 去请求天气信息*/
+ 
+ 
+ 
     private void toRequestWeatherInfo() {
         Retrofit retrofit = new Retrofit.Builder()
                 //RequestHttp.WeatherBaseUrl = "http://www.weather.com.cn/"
